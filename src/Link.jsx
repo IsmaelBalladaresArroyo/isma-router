@@ -1,4 +1,4 @@
-import {EVENTS} from '../utils/cons'
+import {EVENTS} from './cons'
 export function navigate(href) {
 window.history.pushState({}, '', href)
 //Crear un evento perzonalizado

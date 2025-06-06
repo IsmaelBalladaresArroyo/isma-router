@@ -1,10 +1,10 @@
 import React, { useState, useEffect, Children } from 'react';
-import { EVENTS } from '../utils/cons';
+import { EVENTS } from './cons';
 import { match } from 'path-to-regexp';
-import { getCurrentPath } from '../utils/getCurrentPath';
+import { getCurrentPath } from './getCurrentPath';
 
 
-export function Router ({children, routes = [], defaultComponent: DefaultComponent = () => <h1>404</h1>}) {
+export function Router ({children, routes = [], defaultComponent}) {
 const [currentPath, setCurrentPath] = useState(getCurrentPath())
 
   useEffect(() => {
@@ -43,6 +43,8 @@ const [currentPath, setCurrentPath] = useState(getCurrentPath())
     return true
 
     })?.Component
+
+  const DefaultComponent = defaultComponent || (() => <h1>404</h1>)
 
   return Page 
   ? <Page routeParams={routeParams} />

@@ -1,7 +1,7 @@
 import './App.css'
 import { lazy } from 'react'
 // import AboutPage from './Pages/About'
-import { Router } from './Router'
+import { Router } from './Router.jsx'
 import NotFoundPage from './Pages/404'
 import searchPage from './Pages/SearchPage'
 import { Route } from './Route'
