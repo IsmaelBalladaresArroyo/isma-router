@@ -1,6 +1,9 @@
-# 📦 anis-router
+# 📦 isma-router
 
-Realizando mi proyecto de titulacion con mi pareja, buscamos la forma de aprender y entender como funciona React Router, fácil de usar y personalizable.
+Pudes probarlo aqui:https://www.npmjs.com/package/isma-router
+
+---
+Realizando mi proyecto de titulacion con mi compañera, buscamos la forma de aprender y entender como funciona React Router, fácil de usar y personalizable.
 
 ---
 
@@ -70,13 +73,9 @@ npx vitest
 
 ---
 
-## 📝 Licencia
-
-De codigo abierto ^^
-
-## 📝 Agradecimientos Especiales
+## ⭐ Agradecimientos Especiales
 
 Gracias por las enseñanzas Midudev ^^
-[text](https://www.youtube.com/@midulive)
+(https://www.youtube.com/@midulive)
 
 ---
